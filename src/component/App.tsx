@@ -55,8 +55,7 @@ const App = () => {
   const handleGoogleLoginError = () => {
     console.log("Login Failed");
   };
-  const CLIENT_ID =
-    "452008793601-ep24gi1v4lorccsqe7a3aj30la2beufi.apps.googleusercontent.com";
+  const CLIENT_ID = process.env.NEXT_PUBLIC_CLIENT_ID as string;
   console.log("clientId::", CLIENT_ID);
   return (
     <GoogleOAuthProvider clientId={CLIENT_ID}>
