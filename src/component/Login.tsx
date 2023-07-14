@@ -13,7 +13,7 @@ const Login: React.FC = () => {
         <button type="submit">Log in</button>
       </form>
       <p className="create-account">
-        Don't have an account?{" "}
+        Don&apos;t have an account?{" "}
         <a onClick={() => push("/registration")}>Create New Account</a>
       </p>
       <div>

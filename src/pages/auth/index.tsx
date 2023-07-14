@@ -2,7 +2,7 @@ import { useUserInfo } from "@/hooks/useUserInfo";
 import { useRouter } from "next/router";
 import React from "react";
 
-const index = () => {
+const Index = () => {
   const { back } = useRouter();
   const { data: userInfo } = useUserInfo();
   return (
@@ -23,4 +23,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
