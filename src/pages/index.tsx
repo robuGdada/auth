@@ -1,10 +1,10 @@
+import Login from "@/component/Login";
 import React from "react";
-import { App } from "../component/App";
 
 const index = () => {
   return (
     <div>
-      <App />
+      <Login />
     </div>
   );
 };
